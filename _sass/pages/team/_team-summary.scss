@@ -7,8 +7,9 @@
     margin-right: 13px;
     img {
       border-radius: 50%;
-      height: 100px;
+      object-fit: cover;
       width: 100px;
+      height: 100px;
     }
   }
   .team-meta {

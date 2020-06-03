@@ -1,9 +1,9 @@
 ---
 title: 'Sanjana Bansal'
-image: '/images/team/sage.jpg'
+image: '/images/team/sanjana.jpg'
 jobtitle: 'Finance Director'
 email: 's.bansal@180dc.org'
-linkedinurl: ''
+linkedinurl: 'https://www.linkedin.com/in/sanjanabansal/'
 ---
 
 "I'm the only exec from last year"
