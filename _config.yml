@@ -1,4 +1,5 @@
-baseurl: /site_2020
+baseurl: ''
+url: 'https://github.com/uoft180dc/site_2020'
 exclude: ['README.md', node_modules]
 permalink: pretty
 title: '180DC'
