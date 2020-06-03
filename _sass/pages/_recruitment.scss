@@ -1,0 +1,24 @@
+.page-recruitment {
+    background-image: url('../images/undraw_team_work_k80m.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 205px -90px;
+    @include media-breakpoint-up(sm) {
+      background-size: 90%;
+      background-position: 290px -30%;
+    }
+    @include media-breakpoint-up(md) {
+      background-size: 75%;
+      background-position: 200% -130px;
+    }
+    @include media-breakpoint-up(lg) {
+      background-size: 55%;
+      background-position: 95% -120px;
+    }
+
+    li { 
+      a {
+      color: green;
+      }
+    }
+}

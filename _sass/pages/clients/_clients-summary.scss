@@ -1,0 +1,69 @@
+.clients-summary {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  .clients-image {
+    flex: 1 0 100%;
+    margin-right: 10px;
+    img {
+      border-radius: 2%;
+      max-width: 97%;
+    }
+  }
+  .clients-meta {
+    flex: 1;
+    margin-bottom: 10px;
+
+    p {
+      margin: 0;
+    }
+    a {
+    }
+  }
+  .clients-title {
+    font-family: $font-family-subheading;
+    margin-bottom: 5px;
+  }
+  .clients-name {
+    font-weight: bold;
+    display: inline-block;
+  }
+  .clients-jobtitle {
+    display: inline-block;
+    color: $secondary;
+  }
+  .clients-content {
+    flex: 1 0 100%;
+
+    blockquote {
+      display: block;
+      border-width: 2px 0 0 0;
+      border-style: solid;
+      border-color: #eee;
+      padding: 1.5em 0 0.5em;
+      margin: 1.5em 0;
+      position: relative;
+    }
+    blockquote:before {
+      content: "\201C";
+      position: absolute;
+      top: 0em;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      width: 3rem;
+      height: 2rem;
+      font: 6em/1.08em "PT Sans", sans-serif;
+      color: $primary;
+      text-align: center;
+    }
+    // blockquote:after {
+    //   content: "\2013 \2003" attr(cite);
+    //   display: block;
+    //   text-align: right;
+    //   font-size: 0.875em;
+    //   color: #e74c3c;
+    // }
+  }
+}

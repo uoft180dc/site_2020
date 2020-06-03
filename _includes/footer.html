@@ -1,0 +1,26 @@
+<div class="footer-strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer">
+          <h2 class="footer-title">© 180 Degrees Consulting - University of Toronto {{site.time | date:'%Y'}}</h2> 
+          <ul class="footer-menu">
+            <!-- <li><a href="{{site.baseurl}}/">Home</a></li>
+            <li><a href="{{site.baseurl}}/contact">Contact</a></li> -->
+            {% if site.data.social %}
+            <div>
+                {% assign sm = site.data.social %}
+                {% for entry in sm %}
+                    {% assign key = entry | first %}
+                    {% if sm[key].id %}
+                        <a target="_blank" href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

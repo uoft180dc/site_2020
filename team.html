@@ -1,0 +1,66 @@
+---
+title: Team
+layout: default
+bodyClass: page-team-list
+---
+
+<!-- <div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Meet The Team</h1>
+        <p>
+          We are passionate, diverse, and committed students at the University of Toronto. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="intro pb-2">
+  <div class="container">
+    <h1>Our Team</h1>
+    <p>We are passionate, diverse, and committed students at the University of Toronto. </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="call">
+    <div class="call-box-top">
+      <div class="call-phone"><strong>Want to get involved?</strong> 
+      </div>
+      <div class="call-email">We're always looking for talent. 
+      </div>
+    </div>
+    <div class="call-box-bottom">
+      <a href="{{site.baseurl}}/recruitment" class="button">Recruitment</a>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-10 pt-md-11 mb-4">
+  <h2 class="title-3 text-dark mb-3">EXECUTIVES</h2>
+  <div class="row">
+    {% for team in site.team %}
+    <div class="col-12 col-md-4 mb-2">
+      <div class="team team-summary">
+        {% if team.image %}
+        <div class="team-image">
+          <img
+            alt="{{ team.title }} logo"
+            class="img-fluid mb-2"
+            src="{{site.baseurl}}{{ team.image }}"
+          />
+        </div>
+        {% endif %}
+        <div class="team-meta">
+          <h2 class="team-name"> <a target="_blank" href="{{ team.linkedinurl }}">{{ team.title }}</a></h2>
+          <p class="team-description">{{ team.jobtitle }}</p>
+          <a class="team-email" href="mailto:{{ team.email }}">{{ team.email }}</a>
+        </div>
+        <div class="team-content">{{ team.content }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

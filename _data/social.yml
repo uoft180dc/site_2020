@@ -1,0 +1,29 @@
+# vimeo: ""
+# twitter: "https://twitter.com/figuritltd"
+# instagram: ""
+# linkedin: "https://www.linkedin.com/in/linda-chesher-81a35618/"
+# facebook: ""
+
+email:
+  id: 'uoft@180dc.org'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+facebook:
+  id: '180dctoronto'
+  href: 'https://www.facebook.com/'
+  title: 'Facebook'
+  fa-icon: 'fa-facebook-square'
+
+instagram:
+  id: 'uoft180dc'
+  href: 'https://www.instagram.com/'
+  title: 'Instagram'
+  fa-icon: 'fa-instagram'
+
+linkedin:
+  id: '18292790'
+  href: 'https://linkedin.com/company/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'

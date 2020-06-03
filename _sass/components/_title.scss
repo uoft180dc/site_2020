@@ -1,0 +1,52 @@
+.title-1 {
+  color: $primary;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-family: $font-family-heading;
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+  &.black {
+    color: #222222;
+  }
+}
+.title-2 {
+  font-family: $font-family-base;
+  font-weight: light;
+  color: #333333;
+  font-size: 2.4rem;
+  @include media-breakpoint-up(md) {
+    font-size: 4rem;
+  }
+  a {
+    display: block;
+  }
+}
+.title-3 {
+  font-family: $font-family-subheading;
+  font-weight: light;
+  color: #333333;
+  font-size: 1.7rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 1.8rem;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 2rem;
+  }
+  a {
+    display: block;
+  }
+}
+.title-4 {
+  font-family: $font-family-base;
+  color: $secondary;
+  font-size: 1.4rem;
+  a {
+    display: inline;
+  }
+.title-5 {
+  font-family: $font-family-subheading;
+  color: $secondary;
+  font-size: 1rem;
+  }
+}

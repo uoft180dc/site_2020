@@ -1,0 +1,42 @@
+---
+title: Clients
+layout: default
+bodyClass: page-clients-list
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Clients</h1>
+        <p>We focus on helping social impact organisations. Here are some of the wonderful non-profits, charities, and social enterprises that we have worked with.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for client in site.clients %}
+    <div class="col-12 col-md-6 mb-2 ">
+      <div class="clients clients-summary">
+        <div class="clients-meta">
+          <h2 class="clients-title">{{ client.title }}</h2>
+          <p class="clients-name">{{ client.name }}</p>
+          <p class="clients-jobtitle"> | {{ client.jobtitle }}</p>
+        </div>
+        {% if client.image %}
+        <div class="clients-image">
+          <img
+            alt="{{ client.title }} image"
+            class="img-fluid mb-2"
+            src="{{site.baseurl}}{{ client.image }}"
+          />
+        </div>
+        {% endif %}
+        <div class="clients-content">{{ client.content }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
