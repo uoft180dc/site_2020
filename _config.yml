@@ -1,5 +1,5 @@
 baseurl: 'site_2020'
-
+exclude: ['README.md', node_modules]
 permalink: pretty
 title: '180DC'
 
