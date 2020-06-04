@@ -2,7 +2,7 @@
     background-image: url('../images/undraw_contact_us_15o2.svg');
     background-repeat: no-repeat;
     background-size: 90%;
-    background-position: 99px -30px;
+    background-position: 99px 40px;
     @include media-breakpoint-up(sm) {
       background-size: 70%;
       background-position: 200px -40px;
@@ -13,7 +13,7 @@
     }
     @include media-breakpoint-up(lg) {
       background-size: 50%;
-      background-position: 110% -40px;
+      background-position: 110% 30px;
     }
   }
   

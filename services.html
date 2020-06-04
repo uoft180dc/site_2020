@@ -16,8 +16,8 @@ bodyClass: page-services-list
     </div>
   </div>
 </div>
-
-<div class="container pb-6">
+<hr>
+<div class="container pt-2 pb-2">
   <p class="title-4 text-dark mb-3">These are just some of our specialties. Don't hesitate to <a href="{{site.baseurl}}/contact" >contact us</a> - we'd love to explore any challenge alongside you.</p>
   <div class="row">
     {% for service in site.services %}
@@ -27,15 +27,15 @@ bodyClass: page-services-list
           <h2 class="service-title">
             <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 80 }}
+          {{ service.content | markdownify | strip_html | truncate: 50 }}
         </div>
       </div>
     </div>
     {% endfor %}
   </div>
 </div>
-
-<div class="container pt-8 pt-md-1">
+<hr>
+<div class="container pt-3">
   <h2 class="title-3 text-dark mb-3">HOW WE WORK</h2>
   <div class="service-content mb-7">
     <p>Our proposition is simple: <strong style="color: green">we deliver meaningful social impact whilst helping students gain invaluable consulting experience.</strong> Financial barriers often prevent social organisations from receiving advisory services regarding critical areas like business strategy, market competitiveness, and technology implementation. 
@@ -43,9 +43,11 @@ bodyClass: page-services-list
     180 Degrees Consulting at the University of Toronto is dedicated to filling this gap in a mutually-beneficial effort with students. We help Toronto's social organisations deliver more impact to those who need it most, all while giving students the opportunity to further their own skills in support of genuine causes. Crucially, our services are priced accessibly. 
     <br><br>
     Our typical workflow is as follows:
-    <li>Scope out engagements</li>
-    <li>Consultants carry out engagements, receiving professional mentorship and producing work-in-progress documents</li>
-    <li>Final deliverables are presented and transferred</li>
+    <ol>
+      <li>Scope out engagements</li>
+      <li>Consultants carry out engagements, receiving professional mentorship and producing work-in-progress documents</li>
+      <li>Final deliverables are presented and transferred</li>
+    </ol>
     <br>
     <p>Please <strong><a href="{{site.baseurl}}/contact" >contact us</a></strong> with any inquiries. We'd love to see how we can help.</p>
   </div>
