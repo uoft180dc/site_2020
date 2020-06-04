@@ -1,6 +1,6 @@
 ---
 title: 'Andy Lin'
-image: '/images/team/sage.jpg'
+image: '/images/team/andy.jpg'
 jobtitle: 'Operations Director'
 email: 'a.lin@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/andy-lin-746ab1175/'
