@@ -6,4 +6,4 @@ email: 's.bansal@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/sanjanabansal/'
 ---
 
-"I'm the only exec from last year"
+Rotman Commerce - 2021

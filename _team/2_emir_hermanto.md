@@ -6,4 +6,4 @@ email: 'emir.hermanto@180dc.org'
 linkedinurl: 'https://linkedin.com/in/emir-hermanto-5b57aa138'
 ---
 
-"Indomie is pretty good"
+Industrial Engineering - 2T0

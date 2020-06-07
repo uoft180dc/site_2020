@@ -6,4 +6,4 @@ email: 'c.zhao@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/cyntzhao/'
 ---
 
-"I don't have a quote yet"
+Rotman Commerce - 2022

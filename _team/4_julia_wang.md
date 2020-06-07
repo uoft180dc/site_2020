@@ -6,4 +6,4 @@ email: 'julia.wang@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/juliajwang/'
 ---
 
-"I don't have a quote yet"
+Rotman Commerce - 2022
