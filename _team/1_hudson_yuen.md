@@ -6,4 +6,4 @@ email: 'h.yuen@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/hudsonyuen'
 ---
 
-Statistics, Comp. Sci - 2021
+Statistics, Comp. Sci - 2021+PEY
