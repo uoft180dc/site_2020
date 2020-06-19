@@ -8,7 +8,10 @@
     margin-right: 10px;
     img {
       border-radius: 2%;
-      max-width: 97%;
+      width: 97%;
+      max-height: 250px;
+      object-fit: cover;
+      object-position: 0 70%
     }
   }
   .clients-meta {
