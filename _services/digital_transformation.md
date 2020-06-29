@@ -7,7 +7,7 @@ All business in the post-COVID world must have a strong online presence.
 
 ## Is your organisation ready?
 
-Whether it's ensuring your staff can work remotely to facilitating delivery of your resources, the pandemic has highlighted an unquestionable need for online flexibility. Some areas include:
+Whether it's helping your staff work remotely to facilitating delivery of your resources, the pandemic has highlighted an unquestionable need for online flexibility. Some areas include:
 
 - Strategy and infrastructure for staff to work from home
 - Remote delivery to target audiences e.g. online distribution, curbside pickups
