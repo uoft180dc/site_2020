@@ -6,4 +6,4 @@ email: 'nicole.ing@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/nicole-ing'
 ---
 
-Master of Ind. Engineering - 2021
+MEng, Industrial Engineering - 2021

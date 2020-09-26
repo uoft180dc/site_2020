@@ -1,4 +1,4 @@
-baseurl: 'https://uoft180dc.org'
+baseurl: ''
 exclude: ['README.md', node_modules]
 permalink: pretty
 title: '180 Degrees Consulting - University of Toronto'
@@ -10,6 +10,9 @@ collections:
   team:
     output: true
     permalink: /team/:path/
+  teamleads:
+    output: true
+    permalink: /teamleads/:path/
   clients:
     output: true
     permalink: /clients/:path/

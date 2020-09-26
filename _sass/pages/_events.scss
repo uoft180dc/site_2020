@@ -1,0 +1,22 @@
+.page-events {
+  background-image: url('../images/undraw_special_event_4aj8.svg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 170px -40px;
+  @include media-breakpoint-up(sm) {
+    background-size: 70%;
+    background-position: 200% -60px;
+  }
+  @include media-breakpoint-up(md) {
+    background-size: 60%;
+    background-position: 150% -90px;
+  }
+  @include media-breakpoint-up(lg) {
+    background-size: 39%;
+    background-position: 90% -100px;
+  }
+  @include media-breakpoint-up(xl) {
+    background-size: 35%;
+    background-position: 90% 80px;
+  }
+}

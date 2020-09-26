@@ -6,4 +6,4 @@ email: 'sean.xie@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/seanxiezc'
 ---
 
-Industrial Engineering - 2021+PEY
+Industrial Engineering - 2T1+PEY

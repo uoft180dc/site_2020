@@ -61,3 +61,30 @@ bodyClass: page-team-list
     {% endfor %}
   </div>
 </div>
+
+<div class="container pt-1 mb-4">
+  <h2 class="title-3 text-dark mb-3">CONSULTING TEAM LEADS</h2>
+  <div class="row">
+    {% for team in site.teamleads %}
+    <div class="col-12 col-md-4 mb-2">
+      <div class="team team-summary">
+        {% if team.image %}
+        <div class="team-image">
+          <img
+            alt="{{ team.title }} logo"
+            class="img-fluid mb-2"
+            src="{{site.baseurl}}{{ team.image }}"
+          />
+        </div>
+        {% endif %}
+        <div class="team-meta">
+          <h2 class="team-name"> <a target="_blank" href="{{ team.linkedinurl }}">{{ team.title }}</a></h2>
+          <a class="team-description">{{ team.jobtitle }}</a>
+          <!-- <p class="team-email">{{ team.email }}</p> -->
+        </div>
+        <div class="team-content">{{ team.content }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
