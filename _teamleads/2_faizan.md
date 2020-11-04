@@ -1,7 +1,7 @@
 ---
-title: 'Faizan Mohsin'
+title: '--'
 image: '/images/team/placeholder.png'
-jobtitle: 'MSc., Biostatistics - 2021'
+jobtitle: '--'
 # email: 'h.yuen@180dc.org'
 linkedinurl: 'https://www.linkedin.com/in/faizan-khalid-mohsin/'
 ---
